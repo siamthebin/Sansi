@@ -1,0 +1,23 @@
+{
+  "name": "Sansnsi",
+  "short_name": "Sansnsi",
+  "description": "A 24/7 AI assistant with a sleek Black Forest UI design.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "icons": [
+    {
+      "src": "https://i.postimg.cc/rppC04Ld/Black-Blue-White-Y2K-Diamond-Pixel-Logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://i.postimg.cc/rppC04Ld/Black-Blue-White-Y2K-Diamond-Pixel-Logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
