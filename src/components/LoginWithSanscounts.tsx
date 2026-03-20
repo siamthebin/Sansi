@@ -44,7 +44,7 @@ export function LoginWithSanscounts({ onLoginSuccess }: LoginWithSanscountsProps
   return (
     <button 
       onClick={handleLogin}
-      className="w-full py-3 px-4 bg-white hover:bg-zinc-100 text-black font-bold rounded-full transition-all flex items-center justify-center gap-3 shadow-sm border border-zinc-200"
+      className="w-full py-3 px-4 bg-[#ededed] hover:bg-white text-black font-bold rounded-full transition-all flex items-center justify-center gap-3 shadow-sm border border-zinc-200"
     >
       <img 
         src="https://i.postimg.cc/wvXS9k1D/IMG-9128.jpg" 

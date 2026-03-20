@@ -155,7 +155,7 @@ export default function App() {
       {/* Header */}
       <header className="sticky top-0 z-50 flex h-14 items-center justify-between border-b border-[#27272a] bg-[#0a0a0a]/80 px-4 backdrop-blur-md">
         <div className="flex items-center gap-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-white overflow-hidden">
+          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#111111] border border-[#27272a] overflow-hidden">
             <img 
               src="https://i.postimg.cc/rppC04Ld/Black-Blue-White-Y2K-Diamond-Pixel-Logo.png" 
               alt="Logo" 
@@ -271,7 +271,7 @@ export default function App() {
               <button
                 type="submit"
                 disabled={!input.trim() || isLoading}
-                className="flex h-8 w-8 items-center justify-center rounded-lg bg-white text-black transition-opacity disabled:opacity-50 hover:bg-[#ededed]"
+                className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#ededed] text-black transition-opacity disabled:opacity-50 hover:bg-white"
               >
                 {isLoading ? (
                   <Loader2 className="h-4 w-4 animate-spin" />
